@@ -33,7 +33,6 @@ describe('test postSagas', () => {
         expect(gen.next()).toEqual({ done: true, value: undefined });
       })
     it('test save posts', () => {
-        
         const gen = saveComment(saveCommentAction(GetCommentsMock[0]));
         expect(gen.next().value).toEqual(put(saveCommentSuccess(GetCommentsMock[0])));
         expect(gen.next()).toEqual({ done: true, value: undefined });
