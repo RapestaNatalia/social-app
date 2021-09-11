@@ -16,7 +16,7 @@ export const AddComment: FunctionComponent<Props> = props => {
         const addComment = () => {
         dispatch(saveCommentAction({
                                     "postId": postId,
-                                    "id": 6,
+                                    "id": comments && comments.length+1,
                                     "email": "nd.rapesta@gmail.com",
                                     "name":"name-default",
                                     "body": textInput
