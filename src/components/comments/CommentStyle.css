@@ -1,0 +1,17 @@
+.comment-body {
+  background: var(--platinum);
+  margin: 5px 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-align: initial;
+}
+.comment-email {
+  font-weight: bold;
+  font-size: small;
+  text-align: initial;
+}
+.comment-name {
+  color: var(--queen-blue);
+  font-size: small;
+  text-align: initial;
+}
